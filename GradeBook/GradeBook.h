@@ -9,6 +9,7 @@ class GradeBook
     std::string getCourseName() const;
     std::string getInstructorName() const;
     void displayMessage() const;
+    void determineClassAverage() const;
     private:
     std::string courseName;
     std::string instructor;
