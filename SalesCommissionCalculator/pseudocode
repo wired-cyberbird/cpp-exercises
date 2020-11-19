@@ -1,0 +1,10 @@
+Initialize variables
+double sales = 0; 
+double salary = 200;
+double commision = 9% of sales;
+double total salary = salary + commision;
+
+loop 
+prompt to input sales amount
+calculate the commision 
+sum commision and salary to calculate total salary
