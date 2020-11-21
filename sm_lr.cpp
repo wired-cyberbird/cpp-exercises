@@ -6,7 +6,7 @@ int main()
 {
     int number1 = 0, number2 = 0, number3 = 0, number4 = 0, number5 = 0;
 
-    cout << "Enteger 5 integers to compare " << endl;
+    cout << "Enter 5 integers to compare " << endl;
     cin >> number1 >> number2 >> number3 >> number4 >> number5;
 
     if(number1 < number2)
