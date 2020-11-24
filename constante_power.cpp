@@ -5,7 +5,6 @@ int main()
 {
     double e = 1; // contain euler constant
     double x = 0; // contain x in formual e power of x
-    double exponent = 1; // contain exponents of each precision degree
     double factorial = 0; // contain factorial of each precision degree
     int precision = 0; // precision degree of euler formula
     int counter = 1; // counter of outerloop
