@@ -19,5 +19,6 @@ int main()
         << gradeBook2.getCourseName() << endl;
 
     gradeBook1.displayMessage();
-    gradeBook1.determineClassAverage();
+    gradeBook1.inputGrades();
+    gradeBook1.displayGradeReport();
 }

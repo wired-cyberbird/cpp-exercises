@@ -10,7 +10,14 @@ class GradeBook
     std::string getInstructorName() const;
     void displayMessage() const;
     void determineClassAverage() const;
+    void inputGrades();
+    void displayGradeReport() const;
     private:
     std::string courseName;
     std::string instructor;
+    unsigned int aCount;
+    unsigned int bCount;
+    unsigned int cCount;
+    unsigned int dCount;
+    unsigned int fCount;
 };
