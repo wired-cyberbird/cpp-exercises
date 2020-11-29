@@ -82,6 +82,12 @@ void GradeBook::determineClassAverage() const
 void GradeBook::inputGrades()
 {
     int grade;
+    pointA = 4;
+    pointB = 3;
+    pointC = 2;
+    pointD = 1;
+    pointF = 0;
+    totalPoints = 0;
 
     cout << "Enter the letter grades." << endl
         << "Enter the EOF character to end input." << endl;
@@ -125,7 +131,10 @@ void GradeBook::inputGrades()
                 << " Enter a new grade." << endl;
             break;
         }
+
     }
+
+    totalPoints = aCount + bCount + cCount + dCount + fCount;
 }
 
 void GradeBook::displayGradeReport() const
@@ -136,5 +145,6 @@ void GradeBook::displayGradeReport() const
         << "\nC: " << cCount
         << "\nD: " << dCount
         << "\nF: " << fCount
+        << "\nAverage: " << totalPoints/5 
         << endl;
 }

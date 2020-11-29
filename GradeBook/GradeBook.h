@@ -20,4 +20,10 @@ class GradeBook
     unsigned int cCount;
     unsigned int dCount;
     unsigned int fCount;
+    unsigned int pointA;
+    unsigned int pointB;
+    unsigned int pointC;
+    unsigned int pointD;
+    unsigned int pointF;
+    double totalPoints;
 };
